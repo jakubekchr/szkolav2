@@ -5,6 +5,6 @@ public class Main {
     Osoba osoba = new Uczen("Jas",8);
 
         System.out.println(osoba);
-
+        Nauczyciel nauczyciel = new Nauczyciel("Jakub", "Muzyka");
     }
 }

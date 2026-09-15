@@ -4,4 +4,9 @@ public class Nauczyciel extends Osoba {
         super(imie);
         this.przedmiot = przedmiot;
     }
+
+    @Override
+    public String toString() {
+        return "Nauczyciel" + getImie() + przedmiot + " przedmiot";
+    }
 }
